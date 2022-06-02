@@ -28,8 +28,8 @@ jobs:
       #     aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY_ZTNA }}
       #     aws-region: us-west-2
 
-      - name: deploy to cluster
-        uses: wahyd4/kubectl-helm-action@master
+      # - name: deploy to cluster
+      #   uses: wahyd4/kubectl-helm-action@master
 
       - name: environement-setup
         run: |
